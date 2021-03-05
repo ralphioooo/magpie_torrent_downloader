@@ -1,0 +1,26 @@
+* * * * * /usr/bin/php -q /Users/ralphvugts/Documents/sites/magpie/scripts/magpie_simple.php
+
+
+
+cd ~/.scripts && ./work.sh
+
+
+* * * * * cd /Users/ralphvugts/Documents/sites/magpie/scripts && /usr/bin/php -q magpie_simple.php
+
+
+* * * * * wget -O - http://yoursite.com/tasks.php >/dev/null 2>&1
+
+wget -O - http://magpie:8888/magpie_simple.php
+
+
+
+
+* * * * * cd /Users/ralphvugts/Documents/sites/magpie/scripts && /usr/bin/php -q -f ./magpie_simple.php 
+
+
+
+* * * * * cd /Users/ralphvugts/Documents/sites/magpie/scripts && /usr/bin/php -q -f ./magpie_simple.php >/dev/null 2>&1
+
+
+https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/
+sudo crontab -u ralphvugts -e
